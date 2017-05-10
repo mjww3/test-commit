@@ -15,7 +15,7 @@ if(name=="Mukul Jain"):
 
 print "Enter commit message"
 m = raw_input()
-os.system("git config --gloabl user.name" +name)
+os.system("git config --global user.name" +name)
 os.system("git config --global user.email" +email)
 
 final = date+" "+time
