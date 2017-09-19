@@ -8,6 +8,8 @@ for i in range(100):
 	dat = "2017-07-"+ str(var)+" "+"20:11:11"
 	aas = 'export GIT_COMMITTER_DATE='+'"'+dat+'"'
 	aaas = 'export GIT_AUTHOR_DATE='+'"'+dat+'"'
+	print aas
+	print aaas
 	os.system(aas)
 	os.system(aaas)
 	var = var+1
