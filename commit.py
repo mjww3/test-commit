@@ -5,6 +5,12 @@ var = 1
 for i in range(100):
 	f = open('test1.html','a')
 	f.write('mukul')
+	if(var>=30):
+		var = 1
+	if (var<=9):
+		aq = str(var)
+		a= "0"+str(var)
+	var = int(var)
 	dat = "2017-07-"+ str(var)+" "+"20:11:11"
 	aas = 'export GIT_COMMITTER_DATE='+'"'+dat+'"'
 	aaas = 'export GIT_AUTHOR_DATE='+'"'+dat+'"'
